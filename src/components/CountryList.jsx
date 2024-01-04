@@ -3,17 +3,11 @@ import styles from "./CountryList.module.css";
 import Spinner from "./Spinner";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
+import { useCities } from "../contexts/CitiesContext";
 
-const flagemojiToPNG = (flag) => {
-  let countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
-    .map((char) => String.fromCharCode(char - 127397).toLowerCase())
-    .join("");
-  return (
-    <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
-  );
-};
+function CountryList() {
+  const { cities, isLoading, flagemojiToPNG } = useCities();
 
-function CountryList({ cities, isLoading }) {
   if (isLoading) return <Spinner />;
 
   if (!cities.length)
