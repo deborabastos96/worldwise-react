@@ -1,8 +1,7 @@
-# React + Vite
+# WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WorldWise is a single-page application where users can register all the cities they have ever traveled to, adding notes if they want. There is a list with all visited cities and countries.
 
-Currently, two official plugins are available:
+Clicking on a city will move the map there and display all the details about the city name, date, notes, and a link to the Wikipedia article.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This site was created using React + Vite, React Router, CSS Modules, Context API, and Leaflet.
