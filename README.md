@@ -1,8 +1,25 @@
-# React + Vite
+# WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+WorldWise is a single-page application designed to help users keep track of all the cities they have ever traveled to. Users can register visited cities and countries, optionally adding notes for each entry. The application features a comprehensive list of all visited cities and countries, with the ability to view detailed information about each city upon selection. Additionally, clicking on a city will navigate the map to its location and display further details, including the city name, date of visit, notes, and a link to the Wikipedia article.
 
-Currently, two official plugins are available:
+## Features
+* Register Cities: Users can register all the cities they have traveled to, along with optional notes.
+* City List: View a list of all visited cities and countries.
+* City Details: Click on a city to view detailed information, including the city name, date of visit, notes, and a link to the Wikipedia article.
+* Interactive Map: Navigate the map to the location of a selected city.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+* Register Cities: Click on a city on the map to add it as a new registered city, providing the necessary details.
+* View City List: Scroll through the list of visited cities to review past travels.
+* View Countries List: Scroll through the list of visited countries to review past travels.
+* View City Details: Click on a city to view detailed information, including notes and a link to the Wikipedia article.
+* Navigate Map: Click on a city to move the map to its location and display further details.
+
+## Technologies Used
+* React
+* Vite
+* React Router
+* CSS Modules
+* Context API
+* Leaflet
