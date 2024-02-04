@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { createContext, useEffect, useContext, useReducer } from "react";
 
-const BASE_URL = "https://worldwise-react-0174ba8e9fa4.herokuapp.com";
+const BASE_URL = "https://worldwise-react.glitch.me";
 
 const CitiesContext = createContext();
 
